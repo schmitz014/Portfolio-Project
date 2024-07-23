@@ -1,0 +1,34 @@
+/* basic setups */
+
+:root {
+    --light-text-color: #cfb1eb;
+    --dark-text-color: #000000;
+    --light-purple: #825cbecf;
+    --dark-purple: #310e68;
+    --title-font: "Dela Gothic One", sans-serif;
+    --text-font: "Bricolage Grotesque", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* body  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #58427c;
+    background-image: linear-gradient(316deg, #58427c 0%, #746cc0 74%);
+    color: var(--light-text-color);
+}
