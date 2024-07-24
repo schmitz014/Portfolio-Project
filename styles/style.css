@@ -1,6 +1,7 @@
 /* basic setups */
 
 :root {
+    --white-color: #ffffff;
     --light-text-color: #cfb1eb;
     --dark-text-color: #000000;
     --light-purple: #825cbecf;
@@ -32,4 +33,10 @@ body {
     background-image: linear-gradient(316deg, #58427c 0%, #746cc0 74%);
     background-repeat: no-repeat;
     color: var(--light-text-color);
+}
+
+/* h1 */
+
+.title-style {
+    font-family: var(--title-font);
 }

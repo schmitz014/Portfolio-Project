@@ -1,35 +1,35 @@
 /* header */
 
 header {
-    position: fixed;
     display: flex;
+    position: fixed;
     width: 100%;
     height: 8vw;
     padding: 0 2%;
     justify-content: space-between;
     align-items: center;
+    color: var(--dark-text-color);
+    background-color: var(--white-color);
 
     h1 {
         display: flex;
-        margin: 0 0 0 27%;
-        font-family: var(--title-font);
         font-size: 5rem;
     }
 
     ul {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 50px;
         list-style: none;
-        font-family: var(--text-font);
-        font-weight: 400;
-        font-size: 2rem;
+        font-family: var(--title-font);
+        font-weight: 700;
+        font-size: 1.5rem;
     }
     
     a {
         font-style: none;
         text-decoration: none;
-        color: var(--light-text-color);
+        color: var(--dark-text-color);
     }
 }
 
