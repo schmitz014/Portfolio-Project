@@ -8,8 +8,7 @@ header {
     padding: 0 2%;
     justify-content: space-between;
     align-items: center;
-    color: var(--dark-text-color);
-    background-color: var(--white-color);
+    background-color: var(--dark-color);
 
     h1 {
         display: flex;
@@ -22,14 +21,13 @@ header {
         gap: 50px;
         list-style: none;
         font-family: var(--title-font);
-        font-weight: 700;
         font-size: 1.5rem;
     }
     
     a {
         font-style: none;
         text-decoration: none;
-        color: var(--dark-text-color);
+        color: var(--white-color);
     }
 }
 
