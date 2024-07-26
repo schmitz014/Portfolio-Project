@@ -2,7 +2,9 @@
 
 :root {
     --white-color: #dad8d8ee;
+    --white2-color: #dad8d8a1;
     --dark-color: #1b2845;
+    --dark2-color: #091327;
     --title-font: "Dela Gothic One", sans-serif;
     --text-font: "Bricolage Grotesque", sans-serif;
 }

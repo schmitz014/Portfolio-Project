@@ -20,6 +20,29 @@
         border: none;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); 
     }
+
+    .link-btn {
+        width: 10%;
+        border: none;
+        border-radius: 100px;
+        text-align: center;
+        background-color: var(--white-color);
+
+        a {
+            color: var(--dark2-color);
+            text-decoration: none;
+            font-family: var(--title-font);
+            font-size: 1rem;
+        }
+
+    }
+
+    .link-btn:hover {
+        scale: 1.1;
+        transition: ease-in-out .5s;
+        background-color: var(--white2-color);
+    }
+
 }
 
 
