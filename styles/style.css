@@ -25,9 +25,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #1b2845;
-    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
-    background-repeat: no-repeat;
+    background-color: #274060;
     color: var(--white-color);
 }
 
