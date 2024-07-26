@@ -22,10 +22,20 @@ header {
         font-family: var(--title-font);
         font-size: 1.5rem;
     }
+
+    li:hover {
+        scale: 1.05;
+        transition: ease-in-out .5s;
+    }
     
     a {
         font-style: none;
         text-decoration: none;
         color: var(--white-color);
+    }
+
+    a:hover {
+        transition: ease-in-out .5s;
+        color: var(--white2-color);
     }
 }
