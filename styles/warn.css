@@ -23,11 +23,16 @@ a {
 
 @media screen and (max-width: 767px) {
     body {
-        width: 100%;
+        width: 100vw;
+        
     }
 
     h1 {
         font-size: 3rem;
+    }
+
+    a{
+        font-size: 1.5rem;
     }
 }
 
