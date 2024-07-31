@@ -1,29 +1,30 @@
+// carousel js config 
 const imgs = document.getElementById("img-carousel");
 const img = document.querySelectorAll("#img-carousel img");
 
 let idx = 0;
-let larguraImagem = 350;
-let tempoIntervalo = 7000;
+let widthImg = 350;
+let intervalTimer = 7000;
 
-function carrossel() {
+function carousel() {
   idx++;
 
   if (idx > img.length - 1) {
     idx = 0;
   }
 
-  imgs.style.transform = `translateX(${-idx * larguraImagem}px)`;
+  imgs.style.transform = `translateX(${-idx * widthImg}px)`;
 }
 
-function ajustarResponsividade() {
+function resizeResp() {
   if (window.innerWidth <= 950) {
-    larguraImagem = 350;
+    widthImg = 350;
   } else {
-    larguraImagem = 880;
+    widthImg = 880;
   }
 }
 
-ajustarResponsividade();
-window.addEventListener('resize', ajustarResponsividade);
+resizeResp();
+window.addEventListener('resize', resizeResp);
 
-let intervaloCarrossel = setInterval(carrossel, tempoIntervalo);
+let intervalCarousel = setInterval(carousel, intervalTimer);
