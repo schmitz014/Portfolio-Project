@@ -27,7 +27,6 @@
 
             input:hover {
                 scale: 1.01;
-                transition: all ease-in-out .5s;
                 background-color: #ffffffe5;
             }
 

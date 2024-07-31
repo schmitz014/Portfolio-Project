@@ -16,7 +16,6 @@
     
     img:hover {
         scale: 1.05;
-        transition: ease-in-out .5s;
         border: none;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); 
     }
@@ -66,8 +65,7 @@
     }
     
     .link-btn:hover {
-        scale: 1.1;
-        transition: ease-in-out .5s;
+        scale: 1.05;
         background-color: var(--white2-color);
     }
     
