@@ -1,6 +1,7 @@
 /* projects */
 
 #section-projects {
+    height: 100vh;
 
     .text-section {
         text-wrap: wrap;
