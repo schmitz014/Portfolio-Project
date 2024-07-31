@@ -1,5 +1,5 @@
 /* about me */
 
 #section-about-me {
-    background-color: #091327;
+    background-color: var(--dark2-color);
 }

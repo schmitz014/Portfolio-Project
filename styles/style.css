@@ -20,6 +20,14 @@ html {
     scroll-behavior: smooth;
 }
 
+iframe {
+    display: flex;
+    margin: 2rem 0 0 73%;
+    border-radius:12px;
+    width: 25%; 
+    border: none;
+}
+
 /* body  */
 
 body {
