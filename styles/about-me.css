@@ -1,11 +1,5 @@
 /* about me */
 
 #section-about-me {
-
-    h1 {
-        display: flex;
-        margin-right: auto;
-        font-size: 4rem;
-        padding: 0 0 .5rem 2rem;
-    }
+    background-color: #091327;
 }

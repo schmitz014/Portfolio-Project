@@ -1,19 +1,35 @@
 /* projects */
 
 #section-projects {
-    display: flex;
-    width: 80%;
-    height: 0;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: justify;
-    font-family: var(--text-font);
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--dark-text-color);
 
-    h1 {
-        font-size: 4rem;
+    .text-section {
+        text-wrap: wrap;
+
     }
 
+    .container {
+        overflow: hidden;
+        height: 500px;
+        width: 878px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    }
+    
+    .carousel-container {
+        display: flex;
+        transition: transform 1.5s ease-in-out;
+        transform: translateX(0);
+        
+    }
+    
+    .carousel-container img {
+        object-fit: cover;
+        height: 500px;
+        width: 890px;
+
+    }
+
+    .carousel-container img:hover {
+        opacity: .8;
+        transition: all .5s ease-in-out;
+    }
 }
