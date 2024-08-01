@@ -96,19 +96,25 @@
     <section id="section-contact">
         <h1 class="title-style">Contato</h1>
         <div class="container">
-            <form action="" method="post">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="63c42a07-fb05-4552-87e6-dadf7f28dc35">
                 <div class="form-container">
                     <h4 class="title-style">Nome:</h4>
-                    <input type="text" name="nome" placeholder="Digite seu nome">
+                    <input type="text" name="name" placeholder="Digite seu nome" required>
                 </div>
                 <div class="form-container">
                     <h4 class="title-style">E-mail:</h4>
-                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
                 </div>
                 <div class="form-container">
                     <h4 class="title-style">Mensagem:</h4>
-                    <input type="text" name="msg" id="msg" placeholder="Digite sua mensagem">
+                    <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
                 </div>
+                <div class="btn-submit">
+                    <button type="submit">mandar mensagem!</button>
+                </div>
+
+                <input type="hidden" name="redirectTo" value="https://www.secio.tech/thx.html">
             </form>
         </div>
     </section>
