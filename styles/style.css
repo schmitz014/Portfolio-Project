@@ -93,3 +93,43 @@ h2 {
         font-size: 1.3rem;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .spotify {
+        display: none
+    }
+
+    section {
+        text-align: center;
+    }
+
+    h1 {
+        margin-right: 0;
+        font-size: 2rem;
+        padding: .3rem auto;
+    }
+
+    h2 {
+        margin-right: 0;
+        padding: .3rem auto;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .text-section {
+        width: 100%;
+        padding: .3rem;
+        color: var(--white-color);
+        text-wrap: wrap;
+    
+        p {
+            padding: .4rem;
+            font-size: .9rem;
+        }
+    }
+
+}

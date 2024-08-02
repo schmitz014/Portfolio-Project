@@ -2,10 +2,9 @@
 
 header {
     display: flex;
-    width: 100%;
     height: 20vh;
     padding: 0 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--dark-color);
 
@@ -14,7 +13,7 @@ header {
         font-size: 5rem;
     }
 
-    ul {
+    .nav-list {
         display: flex;
         flex-direction: row;
         gap: 50px;
@@ -26,7 +25,7 @@ header {
     li:hover {
         scale: 1.05;
     }
-    
+
     a {
         font-style: none;
         text-decoration: none;
@@ -35,5 +34,60 @@ header {
 
     a:hover {
         color: var(--white2-color);
+    }
+
+    .mobile-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu div {
+        width: 32px;
+        height: 2px;
+        background-color: var(--white-color);
+        margin: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+
+        .title-style {
+            font-size: 2rem;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: var(--dark-color);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        transform: translateX(100%);
+        transition: transform .3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
     }
 }

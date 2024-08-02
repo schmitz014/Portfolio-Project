@@ -103,3 +103,28 @@
         width: calc(100% + 15px);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    #section-welcome {
+        display: flex;
+        margin: 5vh 0;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 50%;
+        }
+
+        .animated-text {
+            font-size: 1rem;
+        }
+
+        .link-btn {
+            width: 60%;
+
+            a {
+                font-size: .8rem;
+            }
+        }
+    }
+}
