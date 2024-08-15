@@ -133,3 +133,29 @@ h2 {
     }
 
 }
+
+@media only screen and (max-width: 1024px) {
+    .spotify {
+        display: none
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .text-section {
+        width: 100%;
+        padding: .3rem;
+        color: var(--white-color);
+        text-wrap: wrap;
+    
+        p {
+            padding: 1rem;
+            font-size: 2rem;
+        }
+    }
+}
