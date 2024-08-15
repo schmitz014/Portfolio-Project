@@ -23,3 +23,23 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 1rem;
+        gap: 5px;
+    
+        .imgs-container {
+            display: flex;
+            gap: 10px;
+    
+            img {
+                width: 30px; 
+            }
+        }
+    
+        h1 {
+            font-size: 1rem;
+        }
+    }     
+}
