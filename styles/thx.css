@@ -1,0 +1,30 @@
+body {
+    font-size: 5rem;
+    font-family: var(--title-font);
+    text-align: center;
+    margin-top: 5rem;
+
+    a {
+        text-decoration: none;
+        color: #878ccf;
+    }
+
+    a:hover {
+        color: #8088feb4;
+        scale: 1.02;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 2.7rem;
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 7rem;
+        margin-top: 13rem;
+    }
+}
