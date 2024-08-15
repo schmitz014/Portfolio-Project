@@ -1,7 +1,6 @@
 /* contact */
 
 #section-contact {
-    height: 130vh;
     background-color: var(--dark2-color);
     
     form {
@@ -72,6 +71,76 @@
                 color: var(--dark-color);
             }
 
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #section-contact {
+        form {
+            .btn-submit {
+                button {
+                    width: 70%;
+                    font-size: 1rem;
+                }
+            }
+
+            .form-container {
+                padding: .5rem;
+
+                .title-style {
+                    padding-bottom: .1rem;
+                    font-size: 1.5rem;
+                }
+    
+                input {
+                    padding: .5rem;
+                    font-size: .8rem;
+                }
+    
+                
+                textarea {
+                    height:100px;
+                    padding: .5rem;
+                    font-size: .8rem;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #section-contact {
+        form {
+            .btn-submit {
+                button {
+                    width: 50%;
+                    font-size: 2rem;
+                }
+            }
+
+            .form-container {
+                padding: 1rem;
+
+                .title-style {
+                    padding-bottom: .7rem;
+                    font-size: 3rem;
+                }
+    
+                input {
+                    padding: 1rem;
+                    font-size: 2rem;
+                }
+    
+                
+                textarea {
+                    height:300px;
+                    padding: 1rem;
+                    font-size: 2rem;
+                }
+
+            }
         }
     }
 }
